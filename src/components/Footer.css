@@ -1,0 +1,26 @@
+.footer{
+    color: white;
+    background-color: #1e1e1e;
+    justify-items: center;
+    height: 120px;
+   margin-top: 90px;
+}
+
+
+.footer p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+@media (max-width: 480px) {
+  .footer {
+    height: 50px;
+    padding: 20px;
+  }
+
+  .footer p {
+    font-size: 16px;
+    padding-top: 2px;
+  }
+}
