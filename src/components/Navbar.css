@@ -85,12 +85,17 @@
     padding: 20px;
     width: 180px;
     border-radius: 15px;
+     border-bottom: rgba(240,237,232,0.09) 1.2px solid;
   }
 
   
  
   .nav-links.active {
     display: flex;
+  width: 85%;
+    right: 0;
+    background-color: #111010; 
+   
   }
 
   .nav-links a {
