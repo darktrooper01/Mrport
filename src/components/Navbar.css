@@ -1,23 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100..900&display=swap');
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 25px 35px;
-  background-color: #1e1e1e;
+  background-color: transparent;
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Fraunces', serif;
   position: relative;
+  border-bottom: rgba(240,237,232,0.09) 0.2px solid;
 }
 
-.name {
+ .name5 {
   font-size: 20px;
-  font-weight: bold;
+  margin-left: 50px;
+  font-weight: 300;
 }
 
 
 .nav-links {
   display: flex;
-  gap: 70px;
+  gap: 65px;
+  margin-right: 65px;
 }
 
 .nav-links a {
@@ -25,12 +30,14 @@
   color: white;
   font-size: 16px;
   transition: 0.3s ease;
-  font-weight: bold;
+  
 }
 
 .nav-links a:hover {
-  color: #3b82f6;
+  border: #f0ede8 1px solid;
+ padding: 2px;
 }
+
 
 
 .hamburger {
@@ -50,8 +57,11 @@
 
 @media (max-width: 480px) {
 
-  .name {
-    font-size: 15px;
+  .name5 {
+    font-size: smaller;
+    margin-left: 10px;
+    font-weight: 300;
+    
   }
 
   .navbar {
@@ -77,6 +87,7 @@
     border-radius: 15px;
   }
 
+  
  
   .nav-links.active {
     display: flex;

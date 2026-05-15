@@ -4,17 +4,19 @@ import './Hero.css'
 function Hero() {
   return (
     <div>
-        <h1 className='head1'>Find verified scholarships and 
-            <span>Apply with ease</span>
-        </h1>
-
-        <h4 className='head2'>
-            Discover thousands of scholarships tailored to your goals
-  <span>Local and international opportunities in one place.</span>
-        </h4>
+      <section>
+        <div className='left2'>
+          <h1>Design. <br />Build. <br /><span>Ship.</span></h1>
+        </div>
 
         
 
+        <div className='right2'>
+          <p>I'm Mahmoud — a frontend developer and UI/UX designer who also works in cloud infrastructure. I care about the full picture: from how something looks to how it runs in production.</p>
+          <button className='btn1' >View Work</button>
+          <button className='btn2'>Get In Touch</button>
+        </div>
+      </section>
     </div>
   )
 }

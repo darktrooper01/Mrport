@@ -5,7 +5,8 @@ import Work from './pages/Work'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import SearchSection from './components/SearchSection'
-import Aurora from './components/Aurora'
+import Projcard from './components/Projcard'
+import Skills from './components/Skills'
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 
@@ -20,10 +21,11 @@ function App() {
           path="/" 
           element={
             <>
-              <Aurora />
               <Hero />
-              <SearchSection />
-              <Footer />
+              <Projcard />
+              <Skills/>
+              <Footer/>
+              
             </>
           } 
         />
@@ -43,6 +45,7 @@ function App() {
           path="/Contact" 
           element={
           <>
+          
           <Contact />
           <Footer/>
           </> 

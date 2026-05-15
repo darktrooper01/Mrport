@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <h2 className="name">Mahmoud Muhammad</h2>
+      <h2 className="name5">Mahmoud Muhammad</h2>
 
       
       <div
