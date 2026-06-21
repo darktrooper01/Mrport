@@ -66,7 +66,14 @@ function Contact() {
            visit website
           </a>
         </div>
-      ))}
+
+      ))
+      }
+
+        <div>
+        <input type="text" placeholder="Enter Your Name" name='email' value={data.email} onChange={handleChange} />
+      </div>
+     
        </div>
     </div>
   )

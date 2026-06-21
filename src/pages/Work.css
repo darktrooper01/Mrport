@@ -2,19 +2,3 @@
 @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
 
 
-.heading{
-  font-family: 'Fraunces', serif;
-  margin-left: 85px;
-  margin-top: 100px;
-}
-
-.heading p{
-  font-family: 'Geist', sans-serif;
-}
-
-.heading h1{
-  font-size: 60px;
-  line-height: 1.2;
-  font-weight: 350;
-
-}  

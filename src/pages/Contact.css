@@ -8,6 +8,14 @@
   margin-top: 100px;
 }
 
+@media screen and (max-width: 768px) {
+  .heading{
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  
+}
+
 .heading p{
   font-family: 'Geist', sans-serif;
 }
@@ -21,10 +29,9 @@
 
 .exc{
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr, 1fr;
   gap: 50px;
   margin-top: 50px;
- ;
 }
 
 .job-card{
