@@ -12,6 +12,14 @@
   .heading{
     margin-left: 20px;
     margin-top: 50px;
+    font-size: small;
+  }
+
+  .exc{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 20px;
   }
   
 }
