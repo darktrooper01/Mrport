@@ -15,6 +15,12 @@
     font-size: small;
   }
 
+  .heading h1{
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 350;
+  }
+
   .exc{
     display: grid;
     grid-template-columns: 1fr;
